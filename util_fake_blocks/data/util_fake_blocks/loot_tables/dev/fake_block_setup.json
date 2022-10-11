@@ -1,0 +1,62 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Fake Block Setup",
+                "color": "gold",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Place this and then open the",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "UI to choose which block it",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "should look like. Alternatively,",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "you can hold the desired block",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "in the offhand slot while placing.",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{util_fake_blocks:{action:\"setup\"},HideFlags:127,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],BlockEntityTag:{conditionMet:1,auto:1,CustomName:'{\"text\":\"Fake Block Setup\"}',powered:0,Command:\"function util_fake_blocks:setup/spawn\",id:\"minecraft:command_block\",SuccessCount:0,TrackOutput:1,UpdateLastExecution:1}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
