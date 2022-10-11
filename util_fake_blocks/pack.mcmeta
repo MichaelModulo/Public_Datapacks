@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 9,
+        "pack_format": 10,
         "description": [
             "Utility - Fake Blocks",
             "\n",
@@ -17,7 +17,8 @@
     "recommended_modules": [],
     "credits": {
         "Creator": [
-            "MichaelMiner137"
+            "MichaelMiner137",
+            "https://linktr.ee/MichaelMiner137"
         ]
     }
 }
