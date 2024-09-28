@@ -1,0 +1,3 @@
+
+data modify storage util_npc:activate_conversation set_memory_entries set from storage util_npc:activate_conversation line.set_memory
+function util_npc:utility/activate_conversation/set_memory/loop

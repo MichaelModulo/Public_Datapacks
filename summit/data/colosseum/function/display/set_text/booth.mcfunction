@@ -1,0 +1,3 @@
+
+$execute if score #seconds colosseum matches 10.. run data modify entity @s text set value '["",{"text":"Colosseum Info","underlined":true,"color":"gold"},{"text":"\\n\\n"},{"text":"$(current)","color":"aqua"},{"text":"\\n\\u231b "},{"text":"$(minutes):$(seconds)","color":"yellow"},{"text":"\\n\\nUp Next:\\n"},{"text":"$(next)","color":"#D2CA7F"}]'
+$execute if score #seconds colosseum matches ..9 run data modify entity @s text set value '["",{"text":"Colosseum Info","underlined":true,"color":"gold"},{"text":"\\n\\n"},{"text":"$(current)","color":"aqua"},{"text":"\\n\\u231b "},{"text":"$(minutes):0$(seconds)","color":"yellow"},{"text":"\\n\\nUp Next:\\n"},{"text":"$(next)","color":"#D2CA7F"}]'
